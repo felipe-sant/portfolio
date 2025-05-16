@@ -1,6 +1,6 @@
 {
-  "name": "template-github.pages-react",
-  "homepage": "https://felipe-sant.github.io/template-github.pages-react",
+  "name": "portfolio",
+  "homepage": "https://felipe-sant.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
