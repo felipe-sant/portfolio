@@ -4,9 +4,13 @@ import HeaderMobileComponent from "../components/HeaderMobile.components";
 import css from "../styles/pages/home.module.css"
 import useWindowSize from "../utils/useWindowSize";
 import profilePicture from "../assets/profile.jpeg"
+import ProjectFavoriteProps from "../types/props/ProjectFavorites.props";
+import projectsFavorite from "../data/projectsFavorite";
+import ProjectFavoriteComponent from "../components/ProjectFavorite.component";
 
 function HomePage() {
     const { width } = useWindowSize();
+    const projects: ProjectFavoriteProps[] = projectsFavorite
 
     return <>
         {width >= 768 ? <HeaderComponent location="home" /> : <HeaderMobileComponent location="home" />}
@@ -18,8 +22,20 @@ function HomePage() {
                     <Link to="/about" className={css.link + " link"}>Ver mais informações</Link>
                 </div>
                 <div className={css.right}>
-                    <img src={profilePicture} alt="profile picture" />
+                    <img src={profilePicture} alt="profile" />
                 </div>
+            </div>
+            <div className={css.projects}>
+                <div className={css.title}>
+                    <h1>Ultimos Projetos</h1>
+                    <Link to="projects" className={css.redLink + " link"}>
+                        Ver todos os projetos
+                    </Link>
+                </div>
+                {projects.map((project, index) => <ProjectFavoriteComponent project={project} key={index}  />)}
+                <Link to="projects" className={css.redLink + " link"}>
+                    Ver todos os projetos
+                </Link>
             </div>
         </main>
     </>
