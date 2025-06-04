@@ -7,6 +7,7 @@ import profilePicture from "../assets/profile.jpeg"
 import ProjectFavoriteProps from "../types/props/ProjectFavorites.props";
 import projectsFavorite from "../data/projectsFavorite";
 import ProjectFavoriteComponent from "../components/ProjectFavorite.component";
+import FooterComponent from "../components/Footer.component";
 
 function HomePage() {
     const { width } = useWindowSize();
@@ -38,6 +39,7 @@ function HomePage() {
                 </Link>
             </div>
         </main>
+        <FooterComponent />
     </>
 }
 
