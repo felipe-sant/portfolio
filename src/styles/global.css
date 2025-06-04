@@ -14,6 +14,8 @@
 }
 
 main {
+    background-color: #202020;
+    padding-top: 50px;
     min-height: 100dvh;
     max-height: auto;
 }

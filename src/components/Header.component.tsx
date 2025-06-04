@@ -4,11 +4,11 @@ import gato from "../assets/gato.svg";
 
 function HeaderComponent(props: { location: string }) {
     return (
-        <div className={css.header}>
+        <header className={css.header}>
             <div className={css.logo}>
-                <img src={gato} alt="aaa" />
+                <img src={gato} alt="logo" />
             </div>
-            <div className={css.menu}>
+            <nav className={css.menu}>
                 <ul className={css.menuList}>
                     <li className={props.location === "about" ? css.mark : ""}>
                         <Link to="/about" className="link">Sobre</Link>
@@ -23,9 +23,9 @@ function HeaderComponent(props: { location: string }) {
                         <div className={css.selectedLine} />
                     </li>
                 </ul>
-            </div>
-            <div className={css.logo}></div>
-        </div>
+            </nav>
+            <div className={css.logo} />
+        </header>
     )
 }
 
