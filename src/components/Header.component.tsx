@@ -1,24 +1,23 @@
 import { Link } from 'react-router-dom';
 import css from '../styles/components/header.module.css';
+import gato from "../assets/gato.svg";
 
-function HeaderComponent() {
-    const location: string = "home";
-
+function HeaderComponent(props: { location: string }) {
     return (
         <div className={css.header}>
             <div className={css.logo}>
-                <img src="/images/gato.svg" alt="aaa" />
+                <img src={gato} alt="aaa" />
             </div>
             <div className={css.menu}>
                 <ul className={css.menuList}>
-                    <li className={location === "about" ? css.mark : ""}>
-                        <Link to="/about">Sobre</Link>
+                    <li className={props.location === "about" ? css.mark : ""}>
+                        <Link to="/about" className="link">Sobre</Link>
                     </li>
-                    <li className={location === "home" ? css.mark : ""}>
-                        <Link to="/">Início</Link>
+                    <li className={props.location === "home" ? css.mark : ""}>
+                        <Link to="/" className="link">Início</Link>
                     </li>
-                    <li className={location === "project" ? css.mark : ""}>
-                        <Link to="/project">Projetos</Link>
+                    <li className={props.location === "project" ? css.mark : ""}>
+                        <Link to="/project" className="link">Projetos</Link>
                     </li>
                 </ul>
             </div>

@@ -16,5 +16,30 @@
 }
 
 .menu {
+    display: flex;  
     justify-self: center;
+}
+
+.menuList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 60px;
+}
+
+.menuList li {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: var(--montserrat-font);
+    transition: color 0.3s ease;
+}
+
+.menuList li:hover {
+    color: #FF856A;
+}
+
+.menuList li.mark {
+    color: #F42C04;
 }
