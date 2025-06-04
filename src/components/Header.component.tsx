@@ -12,12 +12,15 @@ function HeaderComponent(props: { location: string }) {
                 <ul className={css.menuList}>
                     <li className={props.location === "about" ? css.mark : ""}>
                         <Link to="/about" className="link">Sobre</Link>
+                        <div className={css.selectedLine} />
                     </li>
                     <li className={props.location === "home" ? css.mark : ""}>
                         <Link to="/" className="link">Início</Link>
+                        <div className={css.selectedLine} />
                     </li>
                     <li className={props.location === "project" ? css.mark : ""}>
                         <Link to="/project" className="link">Projetos</Link>
+                        <div className={css.selectedLine} />
                     </li>
                 </ul>
             </div>
