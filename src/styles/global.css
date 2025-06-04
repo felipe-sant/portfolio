@@ -13,9 +13,11 @@
     font-family: var(--roboto-font);
 }
 
+body {
+    background-color: #F7F7F7;
+}
+
 main {
-    background-color: #202020;
-    padding-top: 50px;
     min-height: 100dvh;
     max-height: auto;
 }
@@ -23,4 +25,16 @@ main {
 .link {
     text-decoration: none;
     color: inherit;
+}
+
+h1, h2, h3 {
+    font-family: var(--montserrat-font);
+}
+
+p {
+    font-family: var(--roboto-font);
+}
+
+code {
+    font-family: var(--roboto-mono-font);
 }
