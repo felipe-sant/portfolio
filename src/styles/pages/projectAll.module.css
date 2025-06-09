@@ -1,0 +1,12 @@
+.mainBlack {
+    background-color: #202020;
+}
+
+.mainBlack * {
+    color: #e7e7e7
+}
+
+.projects {
+    height: calc(100dvh - 20px);
+    padding-top: 50px;
+}

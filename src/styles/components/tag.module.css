@@ -1,0 +1,76 @@
+.tag {
+    width: max-content;
+    border-radius: 5px;
+    padding: 4px 8px;
+    background-color: rgba(222, 222, 222, 0.8);
+    color: rgba(113, 113, 113, 0.8);
+    font-family: var(--roboto-font);
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.cassandra {
+    background-color: #2f6db04d;
+    color: #2F6DB0;
+}
+
+.express {
+    color: #e2e2e2;
+    background-color: #000000;
+}
+
+.java {
+    background-color: #F898204d;
+    color: #dd7a00;
+}
+
+.javascript {
+    background-color: #F7DF1E4d;
+    color: #d0bb19;
+}
+
+.mongodb {
+    background-color: #47A2484d;
+    color: #47A248
+}
+
+.mysql {
+    background-color: #4479A14d;
+    color: #4479A1
+}
+
+.neo4j {
+    background-color: #0052CC4d;
+    color: #0052CC;
+}
+
+.php {
+    background-color: #777BB44d;
+    color: #555884
+}
+
+.postgre {
+    background-color: #3367914d;
+    color: #336791;
+}
+
+.python {
+    background-color: #3776AB4d;
+    color: #3776AB
+}
+
+.react {
+    background-color: #61DAFB4d;
+    color: #387f92
+}
+
+.redis {
+    background-color: #DC382D4d;
+    color: #DC382D;
+}
+
+.typescript {
+    background-color: #077fcf4d;
+    color: #087ECE;
+}
