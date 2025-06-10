@@ -3,11 +3,11 @@
     border-radius: 5px;
     padding: 4px 8px;
     background-color: rgba(222, 222, 222, 0.8);
-    color: rgba(113, 113, 113, 0.8);
+    color: rgba(113, 113, 113, 1);
     font-family: var(--roboto-font);
     text-align: center;
-    font-weight: 400;
-    font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 .cassandra {

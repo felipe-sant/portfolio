@@ -1,0 +1,136 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.line {
+    background-color: #ddd;
+    width: 2px;
+    height: 100%;
+}
+
+.tags > div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.title h2 {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.academico {
+    border-left: 2px solid #3B82F6 ;
+    color: #3B82F6;
+}
+
+.profissional {
+    border-left: 2px solid #1a1f26;
+    color: #1a1f26;
+}
+
+.pessoal {
+    border-left: 2px solid #F97316;
+    color: #F97316;
+}
+
+.text {
+    width: 100%;
+}
+
+.text p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.buttons button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.proj {
+    background-color: #3B82F6;
+}
+
+.github {
+    background-color: #202020;
+}
+
+.buttons button img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 600px;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .left img {
+        width: 100%;
+    }
+
+    .buttons {
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 700px) {
+    .content {
+        width: 100%;
+    }
+}

@@ -15,6 +15,11 @@
 
 body {
     background-color: #F7F7F7;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 main {
@@ -27,7 +32,9 @@ main {
     color: inherit;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--montserrat-font);
 }
 

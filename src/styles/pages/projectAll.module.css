@@ -7,6 +7,21 @@
 }
 
 .projects {
-    height: calc(100dvh - 20px);
-    padding-top: 50px;
+    min-height: calc(100dvh - 20px);
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 940px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 70px 20px 20px 20px;
+        margin: 0;
+    }
 }

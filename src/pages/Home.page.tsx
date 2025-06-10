@@ -29,12 +29,12 @@ function HomePage() {
             <div className={css.projects}>
                 <div className={css.title}>
                     <h1>Ultimos Projetos</h1>
-                    <Link to="projects" className={css.redLink + " link"}>
+                    <Link to="project" className={css.redLink + " link"}>
                         Ver todos os projetos
                     </Link>
                 </div>
                 {projects.map((project, index) => <ProjectFavoriteComponent project={project} key={index}  />)}
-                <Link to="projects" className={css.redLink + " link"}>
+                <Link to="project" className={css.redLink + " link"}>
                     Ver todos os projetos
                 </Link>
             </div>

@@ -1,3 +1,3 @@
-type TagScopeType = "academico" | "profissional"
+type TagScopeType = "academico" | "profissional" | "pessoal"
 
 export default TagScopeType
