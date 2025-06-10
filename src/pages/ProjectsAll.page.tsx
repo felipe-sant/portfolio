@@ -4,6 +4,7 @@ import useWindowSize from "../utils/useWindowSize";
 import css from "../styles/pages/projectAll.module.css"
 import allProjects from "../data/allProjects";
 import ProjectItemComponent from "../components/ProjectItem.component";
+import FooterComponent from "../components/Footer.component";
 
 function ProjectsAllPage() {
     const { width } = useWindowSize();
@@ -16,6 +17,7 @@ function ProjectsAllPage() {
                 {projects.map((project, index) => <ProjectItemComponent project={project} key={index} />)}
             </div>
         </main>
+        <FooterComponent />
     </>
 }
 

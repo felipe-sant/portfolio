@@ -51,7 +51,6 @@
 }
 
 .title h2 {
-    padding-left: 10px;
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -62,8 +61,8 @@
 }
 
 .profissional {
-    border-left: 2px solid #1a1f26;
-    color: #1a1f26;
+    border-left: 2px solid #586981;
+    color: #586981;
 }
 
 .pessoal {
@@ -104,7 +103,7 @@
 }
 
 .github {
-    background-color: #202020;
+    background-color: #0e0e0e;
 }
 
 .buttons button img {

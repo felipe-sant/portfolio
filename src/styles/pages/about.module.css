@@ -1,0 +1,12 @@
+.mainBlack {
+    background-color: #202020;
+}
+
+.mainBlack * {
+    color: #e7e7e7
+}
+
+.about {
+    min-height: calc(100dvh - 20px);
+    margin: 50px auto 0 auto;
+}

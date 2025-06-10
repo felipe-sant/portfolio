@@ -10,8 +10,8 @@
     min-height: calc(100dvh - 20px);
     padding-top: 100px;
     padding-left: 20px;
+    padding-bottom: 100px;
     padding-right: 20px;
-    padding-bottom: 20px;
     max-width: 940px;
     margin: 50px auto 0 auto;
     display: flex;
@@ -21,7 +21,8 @@
 
 @media (max-width: 768px) {
     .projects {
-        padding: 70px 20px 20px 20px;
+        padding: 120px 20px 120px 20px;
         margin: 0;
+        gap: 40px;
     }
 }

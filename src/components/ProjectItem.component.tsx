@@ -6,7 +6,7 @@ import global from "../assets/global.svg"
 import { redirectToUrl } from "../utils/redirectUrl"
 
 function ProjectItemComponent(props: { project: ProjectItemProps }) {
-    const { img, description, linkGit, name, tagLanguage, tagModel, tagScope, tags, linkProj } = props.project
+    const { img, description, linkGit, name, tagLanguage, tagScope, tags, linkProj } = props.project
 
     return (
         <div className={css.content}>
@@ -20,8 +20,8 @@ function ProjectItemComponent(props: { project: ProjectItemProps }) {
             </div>
             <div className={css.right}>
                 <div className={css.title}>
-                    <h2 className={css[tagScope]}>{name}</h2>
-                    <TagComponent tag={tagModel} />
+                    <h2>{name}</h2>
+                    <TagComponent tag={tagScope} />
                 </div>
                 <div className={css.text}>
                     <p>{description}</p>
