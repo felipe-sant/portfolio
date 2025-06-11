@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left h4 {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.right img {
+    width: 36px;
+    height: 36px;
+}
+
+.right div {
+    color:#bbb;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: var(--roboto-font);
+}
+
+.text p {
+    line-height: 25px;
+    text-align: justify;
+}
