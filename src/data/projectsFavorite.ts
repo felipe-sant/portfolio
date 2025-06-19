@@ -1,24 +1,35 @@
 import ProjectFavoriteProps from "../types/props/ProjectFavorites.props";
+import azimuth from "../assets/projets/azimuth.png"
+import maps from "../assets/projets/maps.png"
+import coletorDeTempo from "../assets/projets/coletorDeTempo.png"
 
 const projectsFavorite: ProjectFavoriteProps[] = [
     {
-        "name": "Projeto 1",
-        "description": "Projeto consiste em um site focado em dados relacionados a Covid-19, seus efeitos e seus sintomas prolongados, ou Covid longa de acordo com a Organização Mundial da Saúde (OMS). Este projeto é destinado a usuários jornalistas da rede Vanguarda com a necessidade de um site de fácil acesso a dados e informações sobre a Covid longa na região do Vale do Paraíba, visando criar novas matérias para o jornal.",
-        "img": "https://placehold.co/320x180", // alterar
-        "link": "https://google.com" // alterar
+        "name": "⛵ Azimuth",
+        "description": `
+            Projeto de aprendizagem integrada do 4º semestre. O objetivo foi desenvolver um aplicativo mobile para monitoramento da localização de uma boia em tempo real. Fui responsável pelo desenvolvimento do aplicativo, com foco nas seguintes atividades: renderização e manipulação de mapas, implementação de sistemas de autenticação e geração de relatórios de localização em formato CSV.
+        `,
+        "img": azimuth,
+        "linkGit": "https://github.com/jacksonrcmachado/AZIMUTH",
     },
     {
-        "name": "Projeto 2",
-        "description": "O sistema desenvolvido, chamado CallNet, é focado em fornecer auxílio aos problemas relacionados a Internet Fixa, e busca aprimorar o sistema de Gerenciamento de Chamadas de Serviço. Nosso objetivo é que nossos clientes tenham acesso a soluções de seus problemas sobre Internet, de forma mais rápida e eficaz.",
-        "img": "https://placehold.co/320x180", // alterar
-        "link": "https://google.com" // alterar
+        "name": "🗺️ Maps",
+        "description": `
+            Site que gera dois pontos geográficos aleatórios dentro do território brasileiro e simula uma rota de voo entre eles, considerando com precisão a curvatura da Terra. O sistema integra a API do IBGE para gerenciar as coordenadas geográficas e identificar os estados brasileiros atravessados pela aeronave durante a simulação.
+        `,
+        "img": maps,
+        "linkGit": "https://github.com/felipe-sant/maps",
+        "linkProj": "https://front-maps.vercel.app/",
     },
     {
-        "name": "Projeto 3",
-        "description": "O objetivo do projeto é o desenvolvimento de uma solução para o gerenciamento de ativos de uma empresa. A plataforma deve conter informações detalhadas sobre ativos, cadastro e histórico de manutenções dos ativos e dashboard com indicativos relevantes sobre os ativos.",
-        "img": "https://placehold.co/320x180", // alterar
-        "link": "https://google.com" // alterar
-    }
+        "name": "🌦️ Clima",
+        "description": `
+            Desenvolvimento de um site para análise e visualização de dados de temperatura e umidade coletados por sensores conectados a um Arduino. Fui responsável por implementar tanto o frontend quanto o backend da aplicação, incluindo a renderização de gráficos de linha para exibição dos dados em tempo real e a coleta, armazenamento e geração de relatórios dos dados no backend.
+        `,
+        "img": coletorDeTempo,
+        "linkGit": "https://github.com/felipe-sant/coletorDeTempo",
+        "linkProj": "https://front-coletor-de-tempo.vercel.app/",
+    },
 ]
 
 export default projectsFavorite

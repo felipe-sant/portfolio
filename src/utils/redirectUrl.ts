@@ -1,3 +1,3 @@
-export function redirectToUrl(url: string): void {
-  window.location.href = url;
+export function redirectToUrl(url: string, target?: string): void {
+  window.open(url, target)
 }

@@ -2,7 +2,8 @@ type ProjectFavoriteProps = {
     img: string,
     name: string,
     description: string,
-    link: string
+    linkGit: string,
+    linkProj?: string
 }
 
 export default ProjectFavoriteProps

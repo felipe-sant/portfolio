@@ -3,6 +3,7 @@
     "files.exclude": {
         "**/.git": true,
         "**/node_modules": true,
+        "**/build": true,
         ".gitignore": true,
         ".vscode": true,
         "README.md": true,
