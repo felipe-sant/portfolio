@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/ra2581392423047/static/css/main.98968587.css",
-    "main.js": "/ra2581392423047/static/js/main.ebef96da.js",
+    "main.css": "/ra2581392423047/static/css/main.697c275b.css",
+    "main.js": "/ra2581392423047/static/js/main.21af180c.js",
     "static/js/453.1407b060.chunk.js": "/ra2581392423047/static/js/453.1407b060.chunk.js",
+    "static/media/maps.png": "/ra2581392423047/static/media/maps.43366300091715af834a.png",
+    "static/media/azimuth.png": "/ra2581392423047/static/media/azimuth.a65f74e0cf40d31ab857.png",
+    "static/media/coletorDeTempo.png": "/ra2581392423047/static/media/coletorDeTempo.c6f70ecdfffb3cab8b4d.png",
     "static/media/profileWallpaper.jpeg": "/ra2581392423047/static/media/profileWallpaper.f5032464bbfff98ab4f8.jpeg",
     "static/media/profile.jpeg": "/ra2581392423047/static/media/profile.edede5e1e03f8b5d93f9.jpeg",
     "static/media/email.svg": "/ra2581392423047/static/media/email.79ac660826d5ce5ead5afe7473362521.svg",
@@ -10,12 +13,12 @@
     "static/media/gato.svg": "/ra2581392423047/static/media/gato.f68c229377b8d8747b295806c5e02df8.svg",
     "static/media/global.svg": "/ra2581392423047/static/media/global.8cd114fd899700f1ca0243641e7040c6.svg",
     "index.html": "/ra2581392423047/index.html",
-    "main.98968587.css.map": "/ra2581392423047/static/css/main.98968587.css.map",
-    "main.ebef96da.js.map": "/ra2581392423047/static/js/main.ebef96da.js.map",
+    "main.697c275b.css.map": "/ra2581392423047/static/css/main.697c275b.css.map",
+    "main.21af180c.js.map": "/ra2581392423047/static/js/main.21af180c.js.map",
     "453.1407b060.chunk.js.map": "/ra2581392423047/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98968587.css",
-    "static/js/main.ebef96da.js"
+    "static/css/main.697c275b.css",
+    "static/js/main.21af180c.js"
   ]
 }
