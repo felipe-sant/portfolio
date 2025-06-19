@@ -22,7 +22,7 @@ function AboutPage() {
                 </div>
                 <div className={css.right}>
                     <h2>Mais sobre mim</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae adipisci debitis atque. Consectetur asperiores, voluptates, quidem ab deserunt, magni molestiae eos obcaecati sunt velit doloribus! Ducimus qui dignissimos quis eaque!</p>
+                    <p>Sou um estudante de Tecnologia da Informação na Fatec de Jacareí, com experiência em manipulação de dados, programação orientada a objetos, versionamento de código e práticas com metodologias ágeis. Em busca de oportunidades na área de análise de dados e desenvolvimento de software.</p>
                 </div>
             </div>
             <hr />
