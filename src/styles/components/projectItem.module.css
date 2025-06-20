@@ -130,14 +130,13 @@
         flex-direction: column;
         margin: 0 auto;
         gap: 10px;
-    }
-
-    .line {
-        background-color: #333;
+        padding-bottom: 25px;
+        border-bottom: 2px solid #0e0e0e;
     }
 
     .left img {
         width: 100%;
+        border: none;
     }
 
     .buttons {
@@ -148,5 +147,17 @@
 @media (max-width: 700px) {
     .content {
         width: 100%;
+    }
+
+    .line {
+        background-color: #bbb;
+    }
+
+    .date {
+        font-size: 0.8rem;
+    }
+
+    .text p {
+        font-size: 0.85rem;
     }
 }
