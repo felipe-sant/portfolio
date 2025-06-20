@@ -18,33 +18,40 @@ function formatDate(date: Date): string {
 
   if (sameYear && sameMonth && sameDay && sameHour) {
     const diffMinutes = now.getMinutes() - date.getMinutes();
-    if (diffMinutes === 1) {
-      return `${diffMinutes} minuto atrás`;
-    } else {
-      return `${diffMinutes} minutos atrás`;
-    }
+    return diffMinutes === 1
+      ? "1 minuto atrás"
+      : `${diffMinutes} minutos atrás`;
   }
 
   if (sameYear && sameMonth && sameDay) {
     const diffHours = now.getHours() - date.getHours();
-    if (diffHours === 1) {
-      return `${diffHours} hora atrás`;
-    } else {
-      return `${diffHours} horas atrás`;
-    }
+    return diffHours === 1
+      ? "1 hora atrás"
+      : `${diffHours} horas atrás`;
   }
 
   if (sameYear && sameMonth) {
     const diffDays = now.getDate() - date.getDate();
-    if (diffDays === 1) {
-      return `Ontem`;
-    } else {
-      return `${diffDays} dias atrás`;
-    }
+    return diffDays === 1
+      ? "Ontem"
+      : `${diffDays} dias atrás`;
   }
 
-  if (sameYear) {
-    return `${date.getDate()} de ${meses[date.getMonth()]}`;
+  const yearDiff = now.getFullYear() - date.getFullYear();
+  const monthDiff = now.getMonth() - date.getMonth() + yearDiff * 12;
+
+  if (monthDiff < 12) {
+    return monthDiff === 1
+      ? "há 1 mês"
+      : `há ${monthDiff} meses`;
+  }
+
+  if (yearDiff === 1) {
+    return "há 1 ano";
+  }
+
+  if (yearDiff > 1) {
+    return `há ${yearDiff} anos`;
   }
 
   return `${date.getDate()} de ${meses[date.getMonth()]} de ${date.getFullYear()}`;
