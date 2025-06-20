@@ -28,7 +28,7 @@ function HomePage() {
             </div>
             <div className={css.projects}>
                 <div className={css.title}>
-                    <h1>Ultimos Projetos</h1>
+                    <h1>Projetos Favoritos</h1>
                     <Link to="project" className={css.redLink + " link"}>
                         Ver todos os projetos
                     </Link>

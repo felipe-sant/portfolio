@@ -20,6 +20,11 @@
     background-color: #000000;
 }
 
+.graphql {
+    background-color: #E100984d;
+    color: #E10098;
+}
+
 .java {
     background-color: #F898204d;
     color: #dd7a00;
@@ -45,6 +50,11 @@
     color: #0052CC;
 }
 
+.pandas {
+    background-color: #1504584d;
+    color: #492fb2;
+}
+
 .php {
     background-color: #777BB44d;
     color: #555884
@@ -52,7 +62,7 @@
 
 .postgre {
     background-color: #3367914d;
-    color: #336791;
+    color: #4a85b5;
 }
 
 .python {
@@ -62,7 +72,12 @@
 
 .react {
     background-color: #61DAFB4d;
-    color: #387f92
+    color: #66acc0
+}
+
+.react-native {
+    background-color: #61DAFB4d;
+    color: #66acc0
 }
 
 .redis {
@@ -73,4 +88,8 @@
 .typescript {
     background-color: #077fcf4d;
     color: #087ECE;
+}
+
+.academico, .pessoal, .profissional {
+    font-size: 0.7rem;
 }

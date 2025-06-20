@@ -48,3 +48,9 @@ p {
 code {
     font-family: var(--roboto-mono-font);
 }
+
+abbr {
+    text-decoration: none;
+    border-bottom: none;
+    cursor: default
+}

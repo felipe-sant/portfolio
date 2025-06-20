@@ -8,12 +8,13 @@ type ProjectItemProps = {
     img: string,
     name: string,
     description: string,
-    tags: TagDatabaseType[] | TagFrameworkType[]
+    tags: (TagDatabaseType | TagFrameworkType)[]
     tagModel: TagModelType,
     tagScope: TagScopeType,
     tagLanguage: TagLanguageType[]
     linkGit: string,
     linkProj?: string,
+    lastUpdate: Date
 }
 
 export default ProjectItemProps

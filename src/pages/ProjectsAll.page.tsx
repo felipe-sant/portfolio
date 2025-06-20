@@ -5,10 +5,11 @@ import css from "../styles/pages/projectAll.module.css"
 import allProjects from "../data/allProjects";
 import ProjectItemComponent from "../components/ProjectItem.component";
 import FooterComponent from "../components/Footer.component";
+import organizedProjectPerDate from "../utils/organizedProjectsPerDate";
 
 function ProjectsAllPage() {
     const { width } = useWindowSize();
-    const projects = allProjects
+    const projects = organizedProjectPerDate(allProjects)
 
     return <>
         {width >= 768 ? <HeaderComponent location="project" /> : <HeaderMobileComponent location="project" />}

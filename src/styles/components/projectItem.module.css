@@ -14,6 +14,7 @@
 .left img {
     width: 400px;
     border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
 .tags {
@@ -26,7 +27,7 @@
 .line {
     background-color: #ddd;
     width: 2px;
-    height: 100%;
+    height: 23px;
 }
 
 .tags > div {
@@ -43,16 +44,27 @@
     width: 100%;
 }
 
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+}
+
+.date {
+    color: #586981;
+    font-size: 0.9rem;
 }
 
 .title h2 {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .academico {
@@ -84,6 +96,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    margin-top: 15px;
 }
 
 .buttons button {
@@ -117,6 +130,10 @@
         flex-direction: column;
         margin: 0 auto;
         gap: 10px;
+    }
+
+    .line {
+        background-color: #333;
     }
 
     .left img {
