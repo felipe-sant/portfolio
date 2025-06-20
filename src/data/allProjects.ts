@@ -167,7 +167,7 @@ const allProjects: ProjectItemProps[] = [
     },
     {
         "img": controleDeDespesas,
-        "name": "Controle de despesas",
+        "name": "Expense control",
         "description": `
             Aplicação web desenvolvida para o controle de despesas pessoais, com o objetivo de praticar e consolidar os conceitos de operações CRUD (Create, Read, Update, Delete). O sistema permite cadastrar, visualizar, editar e excluir registros de despesas de forma simples e eficiente. Como parte do aprendizado, foi utilizada a base de dados MongoDB, explorando sua flexibilidade com documentos e coleções. Este projeto também contribuiu para o entendimento da integração entre frontend e backend em aplicações de gerenciamento de dados financeiros.
         `,
@@ -219,7 +219,7 @@ const allProjects: ProjectItemProps[] = [
     },
     {
         "img": conversor,
-        "name": "Conversor de unidades",
+        "name": "Unit converter",
         "description": `
             Site desenvolvido para conversão de unidades de medida, oferecendo suporte para diferentes categorias como comprimento (ex: metros para quilômetros), peso (ex: gramas para quilogramas) e temperatura (ex: Celsius para Fahrenheit). A aplicação foi criada com foco na praticidade e na experiência do usuário, permitindo conversões rápidas e precisas entre as unidades mais utilizadas no cotidiano.
         `,
