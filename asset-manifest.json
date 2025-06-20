@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ra2581392423047/static/css/main.c3f72f4f.css",
-    "main.js": "/ra2581392423047/static/js/main.324fcb4a.js",
+    "main.css": "/ra2581392423047/static/css/main.9d9f4d32.css",
+    "main.js": "/ra2581392423047/static/js/main.9025f2b0.js",
     "static/js/453.1407b060.chunk.js": "/ra2581392423047/static/js/453.1407b060.chunk.js",
     "static/media/covidinho.gif": "/ra2581392423047/static/media/covidinho.a22f34bafa8e8c69f31d.gif",
     "static/media/youtan.gif": "/ra2581392423047/static/media/youtan.d69302f78c96ed077b16.gif",
@@ -39,12 +39,12 @@
     "static/media/gato.svg": "/ra2581392423047/static/media/gato.f68c229377b8d8747b295806c5e02df8.svg",
     "static/media/global.svg": "/ra2581392423047/static/media/global.8cd114fd899700f1ca0243641e7040c6.svg",
     "index.html": "/ra2581392423047/index.html",
-    "main.c3f72f4f.css.map": "/ra2581392423047/static/css/main.c3f72f4f.css.map",
-    "main.324fcb4a.js.map": "/ra2581392423047/static/js/main.324fcb4a.js.map",
+    "main.9d9f4d32.css.map": "/ra2581392423047/static/css/main.9d9f4d32.css.map",
+    "main.9025f2b0.js.map": "/ra2581392423047/static/js/main.9025f2b0.js.map",
     "453.1407b060.chunk.js.map": "/ra2581392423047/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3f72f4f.css",
-    "static/js/main.324fcb4a.js"
+    "static/css/main.9d9f4d32.css",
+    "static/js/main.9025f2b0.js"
   ]
 }
