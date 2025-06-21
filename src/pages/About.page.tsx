@@ -2,7 +2,7 @@ import HeaderComponent from "../components/Header.component";
 import HeaderMobileComponent from "../components/HeaderMobile.components";
 import useWindowSize from "../utils/useWindowSize";
 import css from "../styles/pages/about.module.css"
-import profile from "../assets/profile.jpeg"
+import profile from "../assets/about.jpeg"
 import FooterComponent from "../components/Footer.component";
 import allExperience from "../data/allExperiences";
 import allFormations from "../data/allFormations";
