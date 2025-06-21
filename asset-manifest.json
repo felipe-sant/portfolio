@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ra2581392423047/static/css/main.9d9f4d32.css",
-    "main.js": "/ra2581392423047/static/js/main.9025f2b0.js",
+    "main.css": "/ra2581392423047/static/css/main.77c1dc4c.css",
+    "main.js": "/ra2581392423047/static/js/main.96a4b228.js",
     "static/js/453.1407b060.chunk.js": "/ra2581392423047/static/js/453.1407b060.chunk.js",
     "static/media/covidinho.gif": "/ra2581392423047/static/media/covidinho.a22f34bafa8e8c69f31d.gif",
     "static/media/youtan.gif": "/ra2581392423047/static/media/youtan.d69302f78c96ed077b16.gif",
@@ -15,12 +15,13 @@
     "static/media/azimuth.png": "/ra2581392423047/static/media/azimuth.a65f74e0cf40d31ab857.png",
     "static/media/coletorDeTempo.png": "/ra2581392423047/static/media/coletorDeTempo.c6f70ecdfffb3cab8b4d.png",
     "static/media/tdd.png": "/ra2581392423047/static/media/tdd.d094bb2956bf100c31b1.png",
+    "static/media/about.jpeg": "/ra2581392423047/static/media/about.069a153e4bd259c7428a.jpeg",
+    "static/media/profileWallpaper.jpeg": "/ra2581392423047/static/media/profileWallpaper.561a5bf93d69a3e35658.jpeg",
     "static/media/importCsv.png": "/ra2581392423047/static/media/importCsv.981aa55f830cd6c2c2dc.png",
     "static/media/controleDeDespesa.png": "/ra2581392423047/static/media/controleDeDespesa.14aa1061e6b0a2a54cc6.png",
-    "static/media/profileWallpaper.jpeg": "/ra2581392423047/static/media/profileWallpaper.f5032464bbfff98ab4f8.jpeg",
+    "static/media/profile.jpeg": "/ra2581392423047/static/media/profile.f499e8e2a5a1213ec06a.jpeg",
     "static/media/arvoreDeNatal.png": "/ra2581392423047/static/media/arvoreDeNatal.b229104b37743906b0d7.png",
     "static/media/petlover.png": "/ra2581392423047/static/media/petlover.727d2d2775e632555f59.png",
-    "static/media/profile.jpeg": "/ra2581392423047/static/media/profile.edede5e1e03f8b5d93f9.jpeg",
     "static/media/lojaSimples.png": "/ra2581392423047/static/media/lojaSimples.ae296b10594a2315315d.png",
     "static/media/redis.png": "/ra2581392423047/static/media/redis.f347e48f629fff0a9d4c.png",
     "static/media/epMegasena.png": "/ra2581392423047/static/media/epMegasena.d576da8706dae5811af2.png",
@@ -39,12 +40,12 @@
     "static/media/gato.svg": "/ra2581392423047/static/media/gato.f68c229377b8d8747b295806c5e02df8.svg",
     "static/media/global.svg": "/ra2581392423047/static/media/global.8cd114fd899700f1ca0243641e7040c6.svg",
     "index.html": "/ra2581392423047/index.html",
-    "main.9d9f4d32.css.map": "/ra2581392423047/static/css/main.9d9f4d32.css.map",
-    "main.9025f2b0.js.map": "/ra2581392423047/static/js/main.9025f2b0.js.map",
+    "main.77c1dc4c.css.map": "/ra2581392423047/static/css/main.77c1dc4c.css.map",
+    "main.96a4b228.js.map": "/ra2581392423047/static/js/main.96a4b228.js.map",
     "453.1407b060.chunk.js.map": "/ra2581392423047/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d9f4d32.css",
-    "static/js/main.9025f2b0.js"
+    "static/css/main.77c1dc4c.css",
+    "static/js/main.96a4b228.js"
   ]
 }
