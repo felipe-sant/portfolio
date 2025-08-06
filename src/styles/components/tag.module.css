@@ -90,6 +90,11 @@
     color: #087ECE;
 }
 
+.ia {
+    background-color: #F7DF1E4d;
+    color: #d0bb19;
+}
+
 .academico, .pessoal, .profissional {
     font-size: 0.7rem;
 }

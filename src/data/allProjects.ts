@@ -27,8 +27,23 @@ import covidinho from "../assets/projets/covidinho.gif"
 import youtan from "../assets/projets/youtan.gif"
 import callnet from "../assets/projets/callnet.gif"
 import vitalu from "../assets/projets/vitalu.png"
+import mnist from "../assets/projets/mnist.png"
 
 const allProjects: ProjectItemProps[] = [
+    {
+        "img": mnist,
+        "name": "MNIST Classifier",
+        "description": `
+            O objetivo foi desenvolver uma aplicação interativa capaz de reconhecer números manuscritos utilizando Inteligência Artificial. Fui responsável pelo desenvolvimento da interface e integração com o modelo de IA, com foco nas seguintes atividades: implementação da área de desenho para entrada do usuário, tratamento e pré-processamento da imagem gerada, e exibição do número previsto com base na inferência do modelo treinado.
+        `,
+        "tags": ["react", "express", "ia"],
+        "tagModel": "fullstack",
+        "tagScope": "pessoal",
+        "tagLanguage": ["typescript", "python"],
+        "linkGit": "https://github.com/felipe-sant/MNIST_Classifier",
+        "linkProj": "https://mnist-classifier-eight.vercel.app/",
+        "lastUpdate": new Date(2025, 6, 7, 11, 38)
+    },
     {
         "img": azimuth,
         "name": "Azimith",
