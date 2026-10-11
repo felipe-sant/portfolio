@@ -1,0 +1,3 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:felipe-sant/portfolio-frontend.git
